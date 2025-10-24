@@ -21,10 +21,10 @@ SHEET_ID = os.getenv(
 
 SHEET_CONFIG = [
     {"sheet_name": "Sheet1", "index": "NIFTY", "expiry_index": 0},
-    {"sheet_name": "Sheet2", "index": "NIFTY", "expiry_index": 1},
-    {"sheet_name": "Sheet3", "index": "NIFTY", "expiry_index": 2},
-    {"sheet_name": "Sheet4", "index": "NIFTY", "expiry_index": 3},
-    {"sheet_name": "Sheet5", "index": "BANKNIFTY", "expiry_index": None},
+    #{"sheet_name": "Sheet2", "index": "NIFTY", "expiry_index": 1},
+    #{"sheet_name": "Sheet3", "index": "NIFTY", "expiry_index": 2},
+    #{"sheet_name": "Sheet4", "index": "NIFTY", "expiry_index": 3},
+    #{"sheet_name": "Sheet5", "index": "BANKNIFTY", "expiry_index": None},
     # {"sheet_name": "Sheet6", "index": "MIDCPNIFTY", "expiry_index": None},
     # {"sheet_name": "Sheet7", "index": "FINNIFTY", "expiry_index": None},
 ]
