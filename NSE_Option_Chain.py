@@ -265,7 +265,7 @@ def is_market_open():
     now = datetime.now(ist)
     current_time = now.time()
     current_date = now.date()
-    market_start = dtime(9, 10)
+    market_start = dtime(7, 10)
     market_end = dtime(15, 35)
     is_weekday = current_date.weekday() < 5
     is_open = is_weekday and market_start <= current_time <= market_end
