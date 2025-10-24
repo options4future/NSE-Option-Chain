@@ -16,7 +16,7 @@ from urllib3.util.retry import Retry
 # ===== CONFIG =====
 SHEET_ID = os.getenv(
     "SHEET_ID",
-    "17YLthNpsymBOeDkBbRkb3eC8A3KZnKTXz4cSAGScx88"
+    "1WvgUPw2SGwi8D9ZmNhXlGhnRgqiaCujcEY-QAaad9WU"
 )
 
 SHEET_CONFIG = [
